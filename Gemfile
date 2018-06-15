@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-
+gem 'pg', '~> 1.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
-gem 'sqlite3'
+#gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.11', '>= 3.11.2'
 # Use SCSS for stylesheets
@@ -68,8 +68,8 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # active admin integration
-gem 'activeadmin', github: 'activeadmin' #refer https://github.com/activeadmin/activeadmin/issues/3926
-gem 'inherited_resources', github: 'activeadmin/inherited_resources'
+gem 'activeadmin'#, github: 'activeadmin' #refer https://github.com/activeadmin/activeadmin/issues/3926
+gem 'inherited_resources'#, github: 'activeadmin/inherited_resources'
 
 # for exception notifier
 gem 'exception_notification'
